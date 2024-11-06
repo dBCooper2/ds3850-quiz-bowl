@@ -1,4 +1,4 @@
-# ds3850-quiz-bowl
+# DS 3850 - Quiz Bowl GUI Application
 
 GUI Quiz Bowl Application for DS 3850. Built with Python, PyQT and SQLite3.
 
