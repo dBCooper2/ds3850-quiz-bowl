@@ -4,7 +4,9 @@ GUI Quiz Bowl Application for DS 3850. Built with Python, PyQT and SQLite3.
 
 ## `app.py`
 
-The app.py file contains the functions and main method that runs the GUI application. When the app opens, it will provide a dropdown menu where you can choose the topic of the quizbowl, and then go through the questions. After the quiz is finished, your score will be shown and the user will be prompted to choose another topic to quiz themselves.
+The app.py file contains the functions and main method that runs the GUI application. When the app opens, it first creates the SQLite Database using the dictionary in `questions.py`. 
+
+In the GUI, it will provide a dropdown menu where you can choose the topic of the quizbowl, and then go through the questions. After the quiz is finished, your score will be shown and the user will be prompted to choose another topic to quiz themselves.
 
 ## `questions.py`
 
