@@ -1,3 +1,6 @@
+# Ignore Database File, Initialize when the Program is Run:
+**/quizbowl.db
+
 # Byte-compiled / optimized / DLL files
 __pycache__/
 *.py[cod]

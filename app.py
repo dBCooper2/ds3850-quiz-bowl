@@ -1,4 +1,5 @@
 import sys
+import os
 import sqlite3
 from PyQt5.QtWidgets import (QApplication, QMainWindow, QWidget, QVBoxLayout, 
                             QHBoxLayout, QComboBox, QPushButton, QLabel, 
@@ -228,6 +229,9 @@ class QuizWindow(QMainWindow):
         event.accept()
 
 if __name__ == '__main__':
+    if os.path.exists('quiz_bowl.db'):
+        os.remove('quiz_bowl.db')
+    
     app = QApplication(sys.argv)
     quiz = QuizWindow()
     quiz.show()
