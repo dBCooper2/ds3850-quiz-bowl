@@ -2,6 +2,10 @@
 
 GUI Quiz Bowl Application for DS 3850. Built with Python, PyQT and SQLite3.
 
+<p align="center">
+  <img src="https://github.com/dBCooper2/ds3850-quiz-bowl/blob/main/imgs/screenshots-of-app.png" />
+</p>
+
 ## `app.py`
 
 The app.py file contains the functions and main method that runs the GUI application. When the app opens, it first creates the SQLite Database using the dictionary in `questions.py`. 
